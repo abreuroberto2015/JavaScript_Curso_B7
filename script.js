@@ -1,1 +1,1 @@
-document.getElementById('exemplo').innerHTML = 'Mudei';
+document.getElementsByClassName('lista')[1].innerHTML = 'Item Alterado!'
