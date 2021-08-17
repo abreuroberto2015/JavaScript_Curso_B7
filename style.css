@@ -1,3 +1,12 @@
-body{
-    background-color: #EEEEEE;
+.preto{
+    background-color: black;
+    color: aliceblue;
 }
+
+.verde{
+    background-color: #00FF00;
+    color: black;
+}
+
+
+
