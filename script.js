@@ -1,14 +1,15 @@
-function alterar(titulo){
-    document.getElementById("titulo").innerHTML = titulo;
-    document.getElementById("campo").value = titulo;
+function subirTela(){
+    window.scrollTo({
+        top: 0,
+        left: 0,
+        behavior: 'smooth'
+    });
 }
 
-function somar(x, y){
-    let total = x + y;
-
-    return total;
+function decidirBotaoScroll(){
+   if(window.scrollY === 0){
+       document.querySelector('.scrollbutton').style.display = 'none';
+   } else {
+    document.querySelector('.scrollbutton').style.display = 'block';
+   }
 }
-
-var resultado = somar(10, 15);
-
-console.log(resultado);
