@@ -1,5 +1,5 @@
 let nome = 'Beto abreu';
 
-let resultado = nome.slice(3);
+let res = lista;
 
 console.log(resultado);
