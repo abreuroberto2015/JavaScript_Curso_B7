@@ -1,6 +1,6 @@
-// desconstruindo objetos 2
+              // desconstruindo objetos 2
 
-// desconstruindo arrays
+              // desconstruindo arrays
 
 /*
 function criar(){
@@ -13,7 +13,7 @@ console.log(a, b, c);
 */
 
 
-//Arrow Functions
+                           //Arrow Functions
 
 /*
 function somar(x, y) {
@@ -42,7 +42,7 @@ let letrasNoNome = nome => nome.length;
 console.log(letrasNoNome('Roberto'));
 */
 
-//Operador Spread
+                                    //Operador Spread
 
 /*
 let numeros = [1,2,3,4];
